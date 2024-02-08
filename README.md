@@ -9,9 +9,9 @@
 - Graph plots (Tracker 4): Coming soon
 
 ### Docs
-- User Guide for Tracker
-- Transition Guide from Tracker 3 to 4
-- Tracker to ROS 1
+- [User Guide for Tracker](https://github.com/fdcl-gwu/VICON/blob/main/Vicon%20Tracker%20User%20Guide.pdf)
+- [Transition Guide from Tracker 3 to 4](https://github.com/fdcl-gwu/VICON/blob/main/Vicon%20Tracker%204%20Migration%20Guide.pdf)
+- [Tracker to ROS 1](https://github.com/fdcl-gwu/VICON/blob/main/Guide%20to%20installing%20and%20running%20ROS-v5.pdf)
 
 ### Other links:
 - Git hub page for ROS 2: https://github.com/OPT4SMART/ros2-vicon-receiver
