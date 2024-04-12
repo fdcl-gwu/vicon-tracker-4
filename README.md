@@ -29,10 +29,18 @@ vrpn_float64	quat[4];	// Orientation of the sensor
 The FDCL's VRPN libraries in C++ can be found at https://github.com/fdcl-gwu/vrpn, and the minimal working code is available at https://github.com/fdcl-gwu/fdcl-vicon.
 
 To integrate with the Vicon server, follow these setup steps:
-1. Ensure that the Vicon server, the desktop computer running Vicon Tracker 4, and the rover (e.g., Nvidia Jetson) are connected to the same network via a WiFi router.
-<img src="https://github.com/fdcl-gwu/vicon-tracker-4/blob/main/figs/wifi_router.jpg" width=60%>
-<img src="https://github.com/fdcl-gwu/vicon-tracker-4/blob/main/figs/vicon_server.jpg" width=60%>
-2. Open Vicon Tracker 4 on the desktop computer. Navigate to the `View` menu and click on the `Connections` panel. Select the `Enabled` check box.
-<img src="https://github.com/fdcl-gwu/vicon-tracker-4/blob/main/figs/vrpn.png" width=80%>
-3. When creating an object with Vicon Tracker 4, its reference frame is determined when calibrating the VICON cameras with the Vicon Active Wand. At SEH2200, the first axis points towards the right (22nd Street) when sitting at the base station; the second axis points forward (I Street) when sitting at the base station; the third axis points upward, [more information](https://github.com/fdcl-gwu/fdcl-uav/blob/master/docs/Documentation/Documentation.tex).
-<img src="https://github.com/fdcl-gwu/vicon-tracker-4/blob/main/figs/vicon_frame.jpg" width=60%>
+
+(1) Ensure that the Vicon server, the desktop computer running Vicon Tracker 4, and the rover (e.g., Nvidia Jetson) are connected to the same network via a WiFi router.
+
+<img src="https://github.com/fdcl-gwu/vicon-tracker-4/blob/main/figs/wifi_router.jpg" width=100%>
+
+<img src="https://github.com/fdcl-gwu/vicon-tracker-4/blob/main/figs/vicon_server.jpg" width=100%>
+
+(2) Open Vicon Tracker 4 on the desktop computer. Navigate to the `View` menu and click on the `Connections` panel. Select the `Enabled` check box.
+
+<img src="https://github.com/fdcl-gwu/vicon-tracker-4/blob/main/figs/vrpn.png" width=100%>
+
+(3) When creating an object with Vicon Tracker 4, its reference frame is determined when calibrating the VICON cameras with the Vicon Active Wand.
+At SEH2200, the first axis points towards the right (22nd Street) when sitting at the base station; the second axis points forward (I Street) when sitting at the base station; the third axis points upward, [more information](https://github.com/fdcl-gwu/fdcl-uav/blob/master/docs/Documentation/Documentation.tex).
+
+<img src="https://github.com/fdcl-gwu/vicon-tracker-4/blob/main/figs/vicon_frame.jpg" width=100%>
