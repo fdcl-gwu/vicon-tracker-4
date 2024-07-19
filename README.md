@@ -44,3 +44,12 @@ To integrate with the Vicon server, follow these setup steps:
 At SEH2200, the first axis points towards the right (22nd Street) when sitting at the base station; the second axis points forward (I Street) when sitting at the base station; the third axis points upward, [more information](https://github.com/fdcl-gwu/fdcl-uav/blob/master/docs/Documentation/Documentation.tex).
 
 <img src="https://github.com/fdcl-gwu/vicon-tracker-4/blob/main/figs/vicon_frame.jpg" width=100%>
+
+### Specifying the IP address for Vicon software
+After setting up the Vicon system, it is crucial to specify the IP address to prevent the Vicon Tracker 4 from freezing during flight. Follow these steps:
+1. Visit "www.routerlogin.net" (or "192.168.1.1").
+2. Navigate to the "LAN Setup" section under the "ADVANCED" tab.
+3. Set the router's gateway IP address to match the Vicon system's IP address, such as 192.168.10.254.
+4. Configure the static IP addresses for the Vicon system as 192.168.10.1 and 192.168.10.2.
+5. Reserve the necessary IP addresses.
+<img src="https://github.com/fdcl-gwu/vicon-tracker-4/blob/main/figs/Netgear%20Router%20R7800.png" width=100%>
