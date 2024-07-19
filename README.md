@@ -53,3 +53,10 @@ After setting up the Vicon system, it is crucial to specify the IP address to pr
 4. Configure the static IP addresses for the Vicon system as 192.168.10.1 and 192.168.10.2.
 5. Reserve the necessary IP addresses.
 <img src="https://github.com/fdcl-gwu/vicon-tracker-4/blob/main/figs/Netgear%20Router%20R7800.png" width=100%>
+For your reference,
+
+- [Specifying the IP address for your Vicon software](https://help.vicon.com/space/Connect/1605699/Specifying+the+IP+address+for+your+Vicon+software)
+- [Configuring network card settings in Windows 11](https://help.vicon.com/space/Connect/1607823/Configuring+network+card+settings+in+Windows+11)
+- [How do I locate my router’s IP address?](https://kb.netgear.com/23664/How-do-I-locate-my-router-s-IP-address)
+- [Nighthawk R7800 Router Change IP address](https://community.netgear.com/t5/Nighthawk-Wi-Fi-5-AC-Routers/Nighthawk-R7800-Router-Change-IP-address/td-p/1218266)
+- [Netgear Nighthawk R6700 | How To Change WiFi Name & Password](https://www.youtube.com/watch?v=vRHKSulrN38)
